@@ -1,0 +1,201 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+p{
+  line-height: 25px;
+}
+.clearfix:before, .clearfixr:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
+
+.navbar-default{
+  font-family: 'Hind Siliguri', sans-serif;
+  background: FFF8F0;
+  box-shadow: none;
+  border: 0;
+  text-shadow: none;
+ }
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #000;
+      background: #f8f8f8;;
+ }
+ .navbar .navbar-brand{
+   font-size: 50px;
+   line-height: 40px;
+   color: #E03616;
+   letter-spacing: -3px;
+
+
+
+ }
+.navbar .navbar-brand:hover{
+  color: #E03616;
+
+}
+
+.navbar-brand span{
+  color: #1B1B1B;
+  font-size: 16px;
+  font-family: 'Exo', sans-serif;
+  border-bottom:2px solid #E03616;
+  position: relative;
+  left: 1px;
+  bottom: 8px;
+  right: 9px;
+  letter-spacing: 2px;
+}
+ .nav{
+   margin-left: 80px;
+ }
+
+ .nav li>a {
+   padding-top:30px;
+   font-weight: 500;
+   font-size: 16px;
+ }
+ .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: #e7e7e7;
+
+ }
+ .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #000;
+    background: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #1B1B1B;
+}
+#carousel-example-generic{
+  margin-bottom: 70px;
+  margin-top: 65px;
+}
+
+#carousel-example-generic img{
+  height: 430px;
+  width: 100%;
+}
+
+#detail{
+  text-align:  center;
+  margin-top: 30px;
+}
+#detail p{
+  text-align: justify;
+}
+#detail i{
+  color: #E03616;
+  text-shadow:  0px 0px 5px #55505C;
+}
+.companydetail{
+  text-align: center;
+  background: #FFFDF7;
+  margin-bottom: 40px;
+  padding: 10px;
+  box-shadow: 0px 0px 30px #5D737E;
+}
+.companydetail h1{
+  color: #1D2D44;
+  text-transform:capitalize;
+}
+
+.companydetail span{
+  color: #FE4A49;
+  letter-spacing: -1px;
+}
+.companydetail .line{
+  width: 60%;
+  background: #2AB7CA;
+  border-bottom: 2px solid #2AB7CA;
+  position: relative;
+  left: 20%;
+  margin-bottom: 20px;
+}
+
+.mainfooter{
+  background: #0D1B2A;
+  color: #fff;
+  margin-top: 50px;
+  height: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.mainfooter p{
+  float: left;
+  padding-top: 80px;
+
+}
+.mainfooter li{
+  text-align: left;
+  list-style: none;
+  padding-bottom: 10px;
+}
+.mainfooter li a{
+  text-decoration: none;
+  color: #fff;
+}
+.mainfooter i{
+  margin-right: 10px;
+  vertical-align:bottom;
+}
+
+.aboutdetail{
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.aboutdetail img{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+
+}
+#about{
+  border-bottom: 2px solid #EDEDED;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+#aboutpara{
+  text-align: justify;
+}
+
+.contact{
+  margin-top: 30px;
+}
+.contact .panel-heading{
+  background: #5296A5;
+  color: #fff;
+}
+.condetail{
+  list-style: none;
+  font-size: 16px;
+  text-align: justify;
+}
